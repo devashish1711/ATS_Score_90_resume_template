@@ -1,0 +1,213 @@
+﻿%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\begin{center}
+    {\LARGE \textbf{DEVASHISH PRAJAPAT}}\\
+    \vspace{1pt}
+    \small
+    Software Engineer \\
+    \href{mailto:devinfo1711@gmail.com}{devashish******@gmail.com} \textbar\
+    +91-5698****552 \textbar\
+    Bangalore, Karnataka, 560076, India \\
+    \href{https://linkedin.com/in/devashish********56}{linkedin.com/in/devashish********56} \textbar\
+    \href{https://github.com/devashish**56}{github.com/devashish**56} \textbar\
+    \href{https://leetcode.com/u/devashish****56}{leetcode.com/u/devashish****56}
+\end{center}
+
+
+\vspace{-25pt} % �� tightens gap from header to Education
+%-----------EDUCATION-----------
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Bachelor of Technology – Computer Science \& Engineering}{delhi, India}
+    {CGPA: 8.9/10 · Graduation: May 2025}{Delhi University}
+  \resumeItemListStart
+    \resumeItem{\textbf{Languages:} English, Hindi, Japanese}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-18pt}
+
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Microsoft}{Feb 2023 – Dec 2024}
+  {Operations Intern – Cloud Integration Support}{Remote}
+\resumeItemListStart
+\resumeItem{Engineered and maintained \textbf{3 real-time data pipelines} and optimized \textbf{12+ SQL queries}, reducing system latency by \textbf{40\%} while enabling log-based debugging and robust data validation.}
+\resumeItem{Automated \textbf{5+ cloud integration workflows} using \textbf{Python, REST APIs}, and version control with \textbf{Git}, improving provisioning efficiency and cutting manual effort by \textbf{30\%}.}
+\resumeItem{Collaborated with \textbf{3 cross-functional teams} under agile practices and contributed to \textbf{code reviews}, supporting production-grade releases and enforcing clean code standards.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-20pt}
+
+
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {\href{https://github.com}{Cloud Infrastructure Deployment – AWS + DevOps Automation}}{June 2024}
+  {AWS EC2 · Terraform · Docker · IAM · Bash · GitHub Actions · CI/CD · Infrastructure Monitoring}{}
+\resumeItemListStart
+  \resumeItem{Provisioned and managed secure infrastructure across \textbf{3 isolated environments} using \textbf{AWS EC2, Terraform}, and Docker, ensuring compliance with Infrastructure-as-Code (IaC) and \textbf{design validation standards}.}
+  \resumeItem{Wrote \textbf{250+ lines of Bash scripts} to automate provisioning and health checks, improving monitoring workflows and reducing manual errors by \textbf{80\%}.}
+  \resumeItem{Built CI/CD pipelines with \textbf{GitHub Actions}, enabling staged deployment with rollback for high-availability apps, cutting release time by \textbf{70\%}.}
+\resumeItemListEnd
+\vspace{-5pt}
+
+\resumeSubheading
+  {\href{https://github.com}{Digital Banking Portal – Account \& Transactions System}}{April 2024}
+  {Java · Spring Boot · MySQL · REST API · OOP · DSA · System Reliability · Security Controls}{}
+\resumeItemListStart
+  \resumeItem{Built RESTful backend microservices using \textbf{Java, Spring Boot} to support \textbf{1K+ users} with \textbf{5K+ transactions/day}, simulating production-scale banking ops.}
+  \resumeItem{Improved dashboard latency by \textbf{35\%} by optimizing \textbf{12+ SQL queries} and \textbf{3 ingestion pipelines} using caching, indexing, and memory tuning.}
+  \resumeItem{Used \textbf{OOP and SoC principles} to modularize the codebase, boosting system uptime and \textbf{fault recovery by 40\%} under high-load conditions.}
+\resumeItemListEnd
+\vspace{-5pt}
+
+\resumeSubheading
+  {\href{https://github.com}{GenAI Chatbot – RAG-Based Knowledge Assistant}}{May 2024}
+  {Python · LangChain · OpenAI API · FAISS · RAG · Streamlit · NLP · GPU Acceleration · Embedded Reasoning}{}
+\resumeItemListStart
+  \resumeItem{Developed a GenAI chatbot using \textbf{LangChain + OpenAI API} to handle \textbf{100+ customer queries} with \textbf{90\%+ response accuracy} across varied domains.}
+  \resumeItem{Enhanced FAISS-based retrieval with memory tuning, cutting irrelevant outputs by \textbf{40\%} and supporting scalable user interactions.}
+  \resumeItem{Launched a real-time dashboard via \textbf{Streamlit} on GPU VMs, sustaining \textbf{50+ concurrent sessions} under sub-second latency, simulating production abuse handling.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-25pt}
+
+
+\section{Skills}
+\small
+\textbf{Programming Languages:} Java, Python, C++, C\# \\
+\textbf{CS Fundamentals:} Data Structures \& Algorithms, Object-Oriented Programming (OOP), Operating Systems, Memory Management, Multithreading, Complexity Analysis \\
+\textbf{Development Practices:} SDLC, Test-Driven Development (TDD), Unit Testing, Debugging, Code Optimization, Rapid Prototyping \\
+\textbf{APIs \& Cloud:} RESTful APIs, Microsoft Azure, AWS, CI/CD Pipelines, Logging \& Monitoring Tools \\
+\textbf{Tools \& Version Control:} Git, GitHub, Agile Methodologies, Feature Implementation, Documentation \\
+\textbf{Soft Skills:} Communication, Time Management, Adaptability, Feedback Incorporation, Growth Mindset, Team Collaboration
+\vspace{-12pt}
+
+
+\section*{Summary}
+\vspace{-2pt}
+{\small
+\noindent Final-year Computer Science student skilled in Java backend, RESTful APIs, and cloud-integrated systems. Built scalable features and data pipelines using Spring Boot, Python, and Git. Strong in DSA, OOP, modular design, and CI/CD workflows. Experienced in agile teams, version control, debugging, and delivering data-driven solutions with a growth mindset. 
+}
+\vspace{-6pt}
+
+
+
+
+
+% Move this section ABOVE \section{Education}
+
+\end{document}
