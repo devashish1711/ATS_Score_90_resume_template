@@ -10,7 +10,7 @@ No more **"10 ATS score"** sadness. Let’s crank that baby up to **95+ like a p
 
 
 **🧾 Step 2: Copy the Template Code from GitHub**
--> Go to this GitHub repo (aka yours): **https://github.com/devashish1711/95-ATS-Resume-Template**
+-> Go to this GitHub repo (aka yours): **https://github.com/devashish1711/ATS_Score_90_resume_template**
 -> Copy the content of resume.tex from GitHub.
 -> In Overleaf, paste that code on the left side, replacing the existing one.
 
